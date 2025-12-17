@@ -1,0 +1,26 @@
+swagger: '2.0'
+info:
+  title: WAS API 
+  description: |
+    <form><math><mtext></form><form><mglyph><svg><mtext><img src/onerror=alert(1)></form>
+
+  version: production
+basePath: /WAS/
+produces:
+  - application/xml
+  - application/json
+consumes:
+  - application/xml
+  - application/json
+security:
+  - basicAuth: []
+paths:
+  /vulns:
+    get:
+      responses:
+        '200':
+          description: No response was specified
+      tags:
+        - vulns
+      operationId: findVulns
+      summary: Find vulns
