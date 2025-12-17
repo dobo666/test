@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: WAS API 
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=wasJs07072022ajhdze() src=1>"></form>
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea>ssss<path id="</textarea><img onerror=wasJs07072022ajhdze() src=1>"></form>
 
   version: production
 basePath: /WAS/
@@ -24,5 +24,6 @@ paths:
         - vulns
       operationId: findVulns
       summary: Find vulns
+
 
 
