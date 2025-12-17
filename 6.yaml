@@ -1,0 +1,13 @@
+openapi: 3.0.0
+info:
+  title: OAuth XSS
+  version: 1.0.0
+components:
+  securitySchemes:
+    oauth:
+      type: oauth2
+      flows:
+        authorizationCode:
+          authorizationUrl: 'javascript:alert(document.domain)'
+          tokenUrl: https://example.com/token
+          scopes: {}
