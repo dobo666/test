@@ -1,0 +1,13 @@
+openapi: 3.0.0
+info:
+  title: XSS Test API
+  version: 1.0.0
+  description: '<img src=x onerror=alert(document.domain)>'
+paths:
+  /test:
+    get:
+      summary: Test endpoint
+      description: '<script>alert(document.domain)</script>'
+      responses:
+        '200':
+          description: '<svg onload=alert(document.domain)>'
